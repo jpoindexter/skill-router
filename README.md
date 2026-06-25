@@ -1,8 +1,16 @@
 # skill-router
 
+[![Release](https://img.shields.io/github/v/release/jpoindexter/skill-router)](https://github.com/jpoindexter/skill-router/releases)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 Intent-based skill router for AI agent harnesses. Classifies a user prompt and injects a directive naming the relevant skills to invoke — so the agent pulls the right skills automatically instead of relying on buried system-prompt instructions.
 
 **No dependencies. Pure Python 3.9+. ~100 lines of classifier logic.**
+
+```bash
+git clone https://github.com/jpoindexter/skill-router && cd skill-router && ./install.sh
+```
 
 ## How it works
 
