@@ -1,0 +1,14 @@
+{
+  "name": "skill-router",
+  "version": "0.2.0",
+  "type": "module",
+  "description": "Intent-based skill router for AI agent harnesses",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0"
+  }
+}
